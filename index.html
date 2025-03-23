@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio | Justyn Adusei - Prempeh</title> <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="Justyn Adusei-Prempeh - iOS Engineer and Swift Developer with expertise in creating high-performance applications for the Apple ecosystem.">
+    <meta name="keywords" content="iOS Developer, Swift Developer, Mobile App Development, iOS Engineer, Mobile Engineer, UIKit, SwiftUI, App Development">
+    <title>Justyn Adusei-Prempeh | iOS Engineer Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header>
@@ -17,6 +21,7 @@
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -27,42 +32,110 @@
         <section id="home" class="hero">
             <h1>Hello, I'm <span>Justyn Adusei - Prempeh</span></h1>
             <p>iOS Engineer | Swift Developer | Mobile App Specialist</p>
+            <div class="hero-content">
+                <p class="hero-description">Dedicated iOS Engineer with proven expertise in creating high-performance applications for the Apple ecosystem. I've optimized e-commerce flows to increase conversion rates by 16%, led app migrations that reduced size by 30%, and implemented architecture improvements that accelerated feature deployment by 25%.</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
         </section>
 
         <section id="about">
             <h2>About Me</h2>
-            <p>This is where you'll introduce yourself. Talk about your experience with iOS development, Swift programming, and your passion for creating intuitive mobile experiences.</p>
+            <p>I'm a dedicated iOS Engineer with proven expertise in creating high-performance applications for the Apple ecosystem. With advanced proficiency in Swift, UIKit, and core iOS frameworks, I've successfully managed the full mobile development lifecycle from concept to App Store deployment.</p>
+            <p>My experience spans optimizing e-commerce flows, implementing MVVM architecture with protocol-oriented programming, and leading technical initiatives that have measurably improved app performance, user experience, and business metrics.</p>
+            <p>I leverage data-driven insights and agile methodologies while maintaining cross-platform development skills with Flutter to complement my core iOS expertise. I'm passionate about creating intuitive mobile experiences that delight users while meeting business objectives.</p>
+            
+            <div class="experience">
+                <h3>Professional Experience</h3>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h4>Mobile App Developer</h4>
+                        <p class="company">Hubtel</p>
+                        <p class="duration">September 2022 – Present</p>
+                    </div>
+                    <ul class="experience-details">
+                        <li>Led iOS migration efforts as part of a 3-person core team spearheading a complete app rewrite from native iOS to Flutter, applying deep iOS platform knowledge to ensure optimal performance on Apple devices while reducing overall app size by 30%.</li>
+                        <li>Optimized iOS e-commerce checkout flow with custom UIKit components and third-party payment integration, delivering an intuitive purchase experience that boosted iOS conversion rates by 16% and increased average order value by 22%.</li>
+                        <li>Led iOS architecture migration to MVVM pattern with Swift protocol-oriented programming, creating reusable components that enhanced code maintainability by 8% and accelerated feature deployment by 25%.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h4>iOS Engineer - Team Lead</h4>
+                        <p class="company">Effect Studios</p>
+                        <p class="duration">May 2020 – Present</p>
+                    </div>
+                    <ul class="experience-details">
+                        <li>Spearheaded the development of premium native iOS applications using Swift, UIKit, and Core Data, leveraging agile methodologies to implement advanced features like biometric authentication and push notifications.</li>
+                        <li>Conducted comprehensive technical feasibility studies on client requirements, transforming Figma wireframes into optimized iOS interfaces, resulting in a 40% increase in App Store ratings across the client portfolio.</li>
+                        <li>Led the continuous improvement initiative for 5+ live iOS applications, implementing performance optimizations, iOS version updates, and memory management improvements that reduced crash rates by 15%.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="education">
+                <h3>Education</h3>
+                <div class="education-item">
+                    <h4>Bachelor of Science in Computer Science</h4>
+                    <p class="institution">Central University</p>
+                    <p class="duration">September 2018 – July 2022</p>
+                    <p>Relevant Coursework: Data Structures & Algorithms, Mobile Application Development, Software Engineering, Computer Security, Artificial Intelligence</p>
+                </div>
+            </div>
         </section>
 
         <section id="skills">
             <h2>Skills & Technologies</h2>
             <div class="skills-container">
                 <div class="skill-category">
-                    <h3>Programming Languages</h3>
+                    <h3>iOS Development</h3>
                     <ul class="skill-list">
                         <li>Swift</li>
                         <li>Objective-C</li>
-                        <!-- Add more as needed -->
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Frameworks & Libraries</h3>
-                    <ul class="skill-list">
                         <li>UIKit</li>
                         <li>SwiftUI</li>
                         <li>Core Data</li>
-                        <li>ARKit</li>
-                        <!-- Add more as needed -->
+                        <li>Core ML</li>
+                        <li>Core Animation</li>
+                        <li>AVFoundation</li>
+                        <li>MapKit</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Mobile Architecture</h3>
+                    <ul class="skill-list">
+                        <li>MVVM</li>
+                        <li>MVC</li>
+                        <li>Protocol-Oriented Programming</li>
+                        <li>XCTest</li>
+                        <li>UI Testing</li>
+                        <li>Clean Architecture</li>
+                        <li>Dependency Injection</li>
                     </ul>
                 </div>
                 <div class="skill-category">
                     <h3>Tools & Platforms</h3>
                     <ul class="skill-list">
                         <li>Xcode</li>
-                        <li>Git/GitHub</li>
-                        <li>CocoaPods</li>
+                        <li>TestFlight</li>
                         <li>App Store Connect</li>
-                        <!-- Add more as needed -->
+                        <li>CocoaPods</li>
+                        <li>Swift Package Manager</li>
+                        <li>Git/GitHub/GitLab</li>
+                        <li>CI/CD, Fastlane</li>
+                        <li>Firebase</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Cross-Platform & Other</h3>
+                    <ul class="skill-list">
+                        <li>Flutter, Dart</li>
+                        <li>REST APIs, JSON, GraphQL</li>
+                        <li>Figma, Sketch</li>
+                        <li>Apple Human Interface Guidelines</li>
+                        <li>Agile, Scrum</li>
+                        <li>JIRA, ClickUp, Azure DevOps</li>
                     </ul>
                 </div>
             </div>
@@ -71,50 +144,84 @@
         <section id="projects">
             <h2>My Projects</h2>
             <div class="project-grid">
-                <!-- Project 1 -->
+                <!-- Adinkra App -->
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="images/project1.jpg" alt="Project 1 Screenshot">
+                        <img src="images/adinkra-app.jpg" alt="Adinkra App Screenshot">
                     </div>
-                    <h3>iOS App Name</h3>
+                    <h3>Adinkra App</h3>
+                    <div class="project-tags">
+                        <span>Swift</span>
+                        <span>UIKit</span>
+                        <span>CoreML</span>
+                        <span>Vision</span>
+                    </div>
+                    <p>Independently designed and developed a culturally significant iOS application that celebrates Akan heritage through interactive exploration of Adinkra symbols, receiving 4.7/5 stars on the App Store.</p>
+                    <p>Implemented custom Core ML and Vision framework integration to create a machine learning model with 64% accuracy in symbol recognition, allowing users to scan and identify Adinkra symbols in real-world environments.</p>
+                    <div class="project-links">
+                        <a href="https://apps.apple.com/us/app/adinkra/id6505055360" target="_blank">App Store</a>
+                        <a href="https://github.com/Clyrko/adinkra-app" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                
+                <!-- Hubtel E-commerce -->
+                <!-- <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/hubtel.jpg" alt="Hubtel E-commerce Screenshot">
+                    </div>
+                    <h3>Hubtel E-commerce</h3>
+                    <div class="project-tags">
+                        <span>Swift</span>
+                        <span>UIKit</span>
+                        <span>Flutter</span>
+                        <span>Dart</span>
+                    </div>
+                    <p>Led iOS migration efforts as part of a 3-person core team spearheading a complete app rewrite from native iOS to Flutter, applying deep iOS platform knowledge to ensure optimal performance on Apple devices.</p>
+                    <p>Optimized iOS e-commerce checkout flow with custom UIKit components and third-party payment integration, delivering an intuitive purchase experience that boosted iOS conversion rates by 16% and increased average order value by 22%.</p>
+                    <div class="project-links">
+                        <a href="https://apps.apple.com/us/app/hubtel/id..." target="_blank">App Store</a>
+                    </div>
+                </div> -->
+                
+                <!-- Effect Studios Projects -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/effect-studios.jpg" alt="Effect Studios Project Screenshot">
+                    </div>
+                    <h3>Premium iOS Applications</h3>
                     <div class="project-tags">
                         <span>Swift</span>
                         <span>UIKit</span>
                         <span>Core Data</span>
+                        <span>Biometrics</span>
                     </div>
-                    <p>Description of your iOS app, including its purpose, key features, and your role in development.</p>
-                    <div class="project-links">
-                        <a href="#" target="_blank">App Store</a>
-                        <a href="#" target="_blank">GitHub</a>
-                    </div>
+                    <p>Spearheaded the development of premium native iOS applications using Swift, UIKit, and Core Data, leveraging agile methodologies to implement advanced features like biometric authentication and push notifications.</p>
+                    <p>Conducted comprehensive technical feasibility studies on client requirements, transforming Figma wireframes into optimized iOS interfaces with smooth animations and transitions, resulting in a 40% increase in App Store ratings across the client portfolio.</p>
                 </div>
-                
-                <!-- Project 2 (duplicate and modify for each project) -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/project2.jpg" alt="Project 2 Screenshot">
-                    </div>
-                    <h3>Another iOS App</h3>
-                    <div class="project-tags">
-                        <span>SwiftUI</span>
-                        <span>Combine</span>
-                        <span>CloudKit</span>
-                    </div>
-                    <p>Description of another app you've developed, highlighting different skills and technologies.</p>
-                    <div class="project-links">
-                        <a href="#" target="_blank">App Store</a>
-                        <a href="#" target="_blank">GitHub</a>
-                    </div>
-                </div>
-                
-                <!-- Add more project cards as needed -->
             </div>
         </section>
 
         <section id="contact">
             <h2>Get In Touch</h2>
-            <p>Looking for an iOS developer for your team? Let's connect!</p>
-            <!-- Contact form or links will go here -->
+            <p>Looking for an iOS developer with proven skills and a track record of delivering results? Let's connect!</p>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:justynadusei@gmail.com">justynadusei@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p>+1 (323) 926-5503</p>
+                    <p>+233 557372388</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/Clyrko" target="_blank" class="social-link">GitHub</a>
+                        <a href="https://linkedin.com/in/justynadusei" target="_blank" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
